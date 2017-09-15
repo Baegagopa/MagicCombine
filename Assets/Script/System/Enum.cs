@@ -1,6 +1,4 @@
 ﻿
-
-
 // 명령어 목록
 public enum Command
 {

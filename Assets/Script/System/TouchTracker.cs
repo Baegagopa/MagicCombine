@@ -55,7 +55,7 @@ public class TouchTracker : MonoBehaviour
             hit2D = Physics2D.Raycast(ScreenToWorldPoint(), Vector2.zero);
             if (curSelect_State == Select_State.NONE_SELECT && hit2D.collider != null)
             {
-                Debug.Log("UI : " + hit2D.transform.name);
+                //Debug.Log("UI : " + hit2D.transform.name);
                 curSelect = hit2D.transform.GetComponent<ITouchable>();
                 curSelect_State = Select_State.ENTER;
 
